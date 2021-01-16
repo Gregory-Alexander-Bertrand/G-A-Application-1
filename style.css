@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    max-width: 100% auto;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: Arbutus;
+    background-color: #8fbc8f;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 4px solid mediumseagreen;
+}
+
+header {
+    font-size: 55px;
+    color: #228b22;
+}
+
+h1 {
+    font-size: 25px;
+    color: #228b22;
+}
+
+section {
+    display: flex;
+    padding-top: 20px;
+}
+
+img {
+    max-width: 600px;
+    max-height: 400px;
+}
+
+p {
+    position: absolute;
+    font-size: 30px;
+    color: #228b22;
+    background: #000000;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+    bottom: 45%;
+    opacity: 0.7;
+}
+
+.btn {
+    border: none;
+    position: relative;
+}
+
+button {
+    border: 1px solid #228b22;
+    border-radius: 4px;
+    height: 100px;
+    width: 250px;
+    font-size: 25px;
+    font-family: Arbutus;
+    color: #228b22;
+    cursor: pointer;
+}
+
+.navbar {
+    border: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    padding-right: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10%;
+    background-image: url(https://images.unsplash.com/photo-1573759251026-3ac162e6ebcf?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+    font-size: 25px;
+}
+
+@media (max-width: 500px) {
+    div {
+      display: block;
+    }
+    
+    header {
+      font-size: 35px;
+    }
+    
+    section {
+      display: block;
+    }
+    
+    img {
+      max-width: 450px;
+      max-height: 400px;
+  }
+    
+    ul {
+      display: block;
+    }
+    
+    .coffee {
+      position: relative;
+    }
+    
+    .inside {
+      position: relative;
+    }
+    
+    button {
+      margin-left: 25px;
+    }
+    
+    #cafe {
+      border: none;
+      margin-left: 15px;
+    }
+    
+    #inside {
+      border: none;
+      margin-left: 15px;
+    }
+    
+    img {
+      border: 1px solid #228b22;
+    }
+  }
